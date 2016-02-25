@@ -3,6 +3,27 @@
 	<head>
 	<title>This is test</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+	<style type="text/css">
+		/* Escritorio */
+		@media (min-width: 1200px) {
+			body { color: red;}
+		}
+		/* Escritorio pequeño o tablet */
+		@media (min-width: 768px) and (max-width: 979px) {
+			body { color: blue;}
+		}
+		/* tablet o smartphone horizontal */
+		@media (max-width: 767px) {
+			body { color: green;}
+		}
+		/* smartphone */
+		@media (max-width: 480px) {
+			body { color: yellow;}
+		}
+	</style>
 	</head>
 	<body>
 	<div class="container">
